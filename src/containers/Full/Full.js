@@ -94,10 +94,11 @@ class Full extends Component {
                 <Route path="/icons/simple-line-icons" name="Simple Line Icons" component={SimpleLineIcons}/>
                 <Route path="/notifications/alerts" name="Alerts" component={Alerts}/>
                 <Route path="/notifications/badges" name="Badges" component={Badges}/>
-                <Route path="/notifications/modals" name="Modals" component={Modals}/>
+                
                 <Route path="/widgets" name="Widgets" component={Widgets}/>
                 <Route path="/charts" name="Charts" component={Charts}/> */}
                 <Redirect from="/" to="/dashboard"/>
+                {/* <Route path="/notifications/modals" name="Modals" component={Modals}/> */}
               </Switch>
             </Container>
           </main>

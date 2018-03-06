@@ -9,3 +9,12 @@ export function getappointmentList(apponintmentList) {
         dispatch({ type: "GET_LIST",  payload: apponintmentList });
     }
 }
+
+// export function createNewappointmentList(newapponintmentList) {
+//     console.log("inside get getappointmentList");
+
+//     return function (dispatch) {
+//         dispatch({ type: "New_LIST",  payload: newapponintmentList });
+//     }
+// }
+
